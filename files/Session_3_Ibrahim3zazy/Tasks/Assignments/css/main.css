@@ -1,0 +1,7 @@
+.btn-primary:hover {
+    background-color: #198754;
+    border-color: #198754;
+}
+.d-block {
+    max-height: 600px;
+}
