@@ -73,7 +73,7 @@
       <h3 style="width: 15rem"><a class="navbar-brand" href="javascript:">I.3 Assignments</a></h3>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2  text-white">Home</a></li>
+          <li><a href="<?= rootPath() ?>" class="nav-link px-2  text-white">Home</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link px-2 text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Searches
