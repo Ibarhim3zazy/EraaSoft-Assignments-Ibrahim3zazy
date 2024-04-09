@@ -31,7 +31,7 @@ if (checkRequestInput('POST', 'categoryName')) {
                 $errors['categoryImage'][] = $fError;
             }
             if (in_array($originalExt, $allowed)) {
-                if ($fSize < 500000) {
+                if ($fSize < 5000000) {
                     $fNewName = uniqid(rand(), true) . "." . $originalExt;
                     $destination = "../images/" . "$fNewName";
 
@@ -51,7 +51,7 @@ if (checkRequestInput('POST', 'categoryName')) {
 
     if (empty($errors)) {
     $query = "INSERT INTO `new_category` (`id`, `category_name`, `category_description`, `category_image_path`, `category_creation_time`) 
-            VALUES (NULL, '$categoryName', '$categoryDescription', '/images/$fNewName', NULL)";
+            VALUES (NULL, '$categoryName', '$categoryDescription', './images/$fNewName', NULL)";
     mysqli_query($conn, $query);
     mysqli_close($conn);
     header('location: ../categories.php');
