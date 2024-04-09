@@ -60,11 +60,7 @@
       }
     </style>
     <?php 
-    function rootPath() : string {
-      $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://';
-      $root = $protocol . $_SERVER['HTTP_HOST'] . '/EraaSoft/EraaSoft Assignments/';
-      return $root;
-    }
+    require_once('core/functions.php')
     ?>
    <header class="p-3 text-bg-dark">
     

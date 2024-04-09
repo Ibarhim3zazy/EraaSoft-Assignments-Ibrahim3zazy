@@ -40,7 +40,7 @@ function isSignedIn($signedIn = true, $userId = null) {
 
 function filePath($path) {
     $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://';
-    $root = $protocol . $_SERVER['HTTP_HOST'] . '\EraaSoft\EraaSoft Assignments\files\Session_7_Ibrahim3zazy\Tasks\Assignments';
+    $root = $protocol . $_SERVER['HTTP_HOST'] . '\EraaSoft\EraaSoft-Assignments-Ibrahim3zazy\files\Session_7_Ibrahim3zazy\Tasks\Assignments';
     return $root . '/' . $path;
 }
 
