@@ -27,10 +27,10 @@
             <th scope="row"><?= $i++ ?></th>
             <td><?= $category['category_name'] ?></td>
             <td><?= $category['category_description'] ?></td>
-            <td><img src="<?= $category['category_image_path'] ?>" class="rounded d-block" style="width: 50%;" alt="<?= $category['category_name'] ?>"></td>
+            <td><img src="./images/<?= $category['category_image_path'] ?>" class="rounded d-block" style="width: 50%;" alt="<?= $category['category_name'] ?>"></td>
             <td>
-                <a href="./addNewCategory.php?categoryId=<?= $category['id'] ?>" class="btn btn-warning">Alert</a>
-                <a href="./addNewCategory.php?categoryId=<?= $category['id'] ?>" class="btn btn-danger">Delete</a>
+                <a href="./addNewCategory.php?categoryId=<?= $category['id'] ?>" class="btn btn-warning">Alter</a>
+                <a href="./handelers/handelCategory.php?categoryIdDel=<?= $category['id'] ?>" class="btn btn-danger">Delete</a>
             </td>
             </tr>
         <?php endforeach ?>
