@@ -103,27 +103,23 @@
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h2>التاسك بتاع الاسبوع اللي فات</h2>
-        <p>معمول فيه تسجيل مستخدم جديد وتسجيل الدخول والناف بار شغاله تمام وعامل فيها اني ابدل بين اليوزرز ومش شرط اليوزر يعمل تسجيل دخول علشان 
-          يظهر البروفايل بتاعه او حد بتواصل معاه ممكن باللينك الخاص باليوزر اظهر الصفحه بتاعتة وابعتله اميل وصفحة الرسايل اللي بتظهر فيها الايميل 
-          مش بتظهر طبعا الا اذا المستخدم اللي اتبعتت له الرساله سجل دخول وفيه تقريبا حاجات تانيه بس مش فاكرها الصراحه
-        </p>
+        <h2>التاسك بتاع الاسبوع الحالي</h2>
+        <p>موجود هنا التاسك والسيرش</p>
         <p><a class="btn btn-secondary" href="./files/Session_8_Ibrahim3zazy/Tasks/Assignments/index.php">لينك يدخلك على التاسك عالطول ياهندسه &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h2> السيرش اللي كان مطلوب</h2>
+        <h2> head</h2>
         <p>authorization vs authentication</p>
-        <p><a class="btn btn-secondary" href="<?= rootPath(); ?>files/Session_7_Ibrahim3zazy/Tasks/Searches/authorization vs authentication.pptx">اللينك &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="./files/Session_8_Ibrahim3zazy/Tasks/Assignments/index.php">اللينك &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h2> اللي كان علينا erd</h2>
-        <p>بتاع البشمهندس فادي والتاني بتاع البونص</p>
-        <p><a class="btn btn-secondary" href="<?= rootPath(); ?>files/Session_7_Ibrahim3zazy/Tasks/Assignments/files/erd-tasks/erd-eng-fahd.png" target="_blank">erd for Eng. fady &raquo;</a></p>
-        <p><a class="btn btn-secondary" href="<?= rootPath(); ?>files/Session_7_Ibrahim3zazy/Tasks/Assignments/files/erd-tasks/erd-eng-abdo-bonus.png" target="_blank">erd bonus for Eng. abdo &raquo;</a></p>
+        <h2> head 2</h2>
+        <p>description</p>
+        <p><a class="btn btn-secondary" href="./files/Session_8_Ibrahim3zazy/Tasks/Assignments/index.php" target="_blank">link &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 

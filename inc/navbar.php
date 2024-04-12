@@ -75,7 +75,7 @@
               Searches
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="">EraaSoft</a></li>
+              <li><a class="dropdown-item" href="tasks.php">EraaSoft</a></li>
               <li><a class="dropdown-item" href="#">Elzero</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Me</a></li>
