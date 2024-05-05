@@ -3,7 +3,7 @@
 <?php require_once('./core/functions.php') ?>
 <?php 
     if (checkGetRequestInput('categoryId')) {
-        $query = "SELECT * FROM `new_category` WHERE `id` = '$_GET[categoryId]'";
+        $query = "SELECT * FROM `category` WHERE `id` = '$_GET[categoryId]'";
         $result = mysqli_query($conn, $query);
         $categories = mysqli_fetch_all($result, MYSQLI_ASSOC);
         mysqli_free_result($result);

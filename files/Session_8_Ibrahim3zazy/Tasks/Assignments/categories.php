@@ -3,7 +3,7 @@
 <?php require_once('./core/connection.php') ?>
 
 <?php 
-    $query = "SELECT * FROM `new_category`";
+    $query = "SELECT * FROM `category`";
     $result = mysqli_query($conn, $query);
     $categories = mysqli_fetch_all($result, MYSQLI_ASSOC);
     mysqli_free_result($result);

@@ -152,14 +152,28 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="<?php rootPath(); ?>files/images/first_site.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="">
+            <img src="<?php rootPath(); ?>files/images/fifth_site.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="">
             <div class="card-body">
-              <p class="card-text">here you can see the result of using bootstrap and how you can call a bootstrap css and js to build your website and create a navbar to your website and building a full page such as a products page or catigory page</p>
+              <p class="card-text">here you can see the result of using CRUD defination with json files</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a href="<?php rootPath(); ?>files/Session_7_Ibrahim3zazy/Tasks/Assignments/index.php" class="btn btn-sm btn-outline-secondary">View</a>
                 </div>
                 <small class="text-muted">29 march 2024</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="<?php rootPath(); ?>files/images/sixth_site.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="">
+            <div class="card-body">
+              <p class="card-text">here you can see the result of using CRUD defination with sql database</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="<?php rootPath(); ?>files/Session_8_Ibrahim3zazy/Tasks/Assignments/index.php" class="btn btn-sm btn-outline-secondary">View</a>
+                </div>
+                <small class="text-muted">06 april 2024</small>
               </div>
             </div>
           </div>

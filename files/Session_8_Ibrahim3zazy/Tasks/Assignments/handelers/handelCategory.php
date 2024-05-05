@@ -53,9 +53,9 @@ if (checkPostRequestInput('categoryName')) {
 
     if (empty($errors)) {
         if (checkPostRequestInput('categoryId')) {
-            $query = "UPDATE `new_category` SET `category_name` = '$categoryName', `category_description` = '$categoryDescription', `category_image_path` = '$fNewName' WHERE `id` = '$categoryId'";
+            $query = "UPDATE `category` SET `category_name` = '$categoryName', `category_description` = '$categoryDescription', `category_image_path` = '$fNewName' WHERE `id` = '$categoryId'";
         }else {
-            $query = "INSERT INTO `new_category` (`id`, `category_name`, `category_description`, `category_image_path`, `category_creation_time`) 
+            $query = "INSERT INTO `category` (`id`, `category_name`, `category_description`, `category_image_path`, `category_creation_time`) 
             VALUES (NULL, '$categoryName', '$categoryDescription', '$fNewName', NULL)";
         }
         mysqli_query($conn, $query);
@@ -69,7 +69,7 @@ if (checkPostRequestInput('categoryName')) {
     }
 }elseif (checkGetRequestInput('categoryIdDel')) {
     $categoryIdDel = $_GET['categoryIdDel'];
-    $query = "DELETE FROM `new_category` WHERE `id` = '$categoryIdDel'";
+    $query = "DELETE FROM `category` WHERE `id` = '$categoryIdDel'";
     mysqli_query($conn, $query);
     mysqli_close($conn);
     header('location: ../categories.php');
