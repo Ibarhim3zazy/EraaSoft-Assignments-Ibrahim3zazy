@@ -1,6 +1,12 @@
 <?php
 
-echo $_SERVER['QUERY_STRING'];
+// define("ROOT_PATH", dirname(__DIR__));
+
+// echo __DIR__ . "<br>";
+
+require_once 'autoload.php';
+
+// new App;
 
 die;
 ?>
