@@ -10,10 +10,10 @@
           <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="add-employee.php">Add Employee</a>
+          <a class="nav-link" href="add-product.php">Add Product</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="employees.php">Employees</a>
+          <a class="nav-link" href="<?php VIEWS.'product/index.php' ?>">Products</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
