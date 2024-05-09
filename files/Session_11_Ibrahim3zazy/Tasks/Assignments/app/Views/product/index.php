@@ -1,7 +1,7 @@
 <?php require_once(VIEWS.'inc/header.php') ?>
 <?php require_once(VIEWS.'inc/nav.php') ?>
 
-
+<h1 class="text-center my-5 py-3">View All Products</h1>
 <div class="container mt-5">
     <table class="table table-striped">
     <thead class="table-dark">
@@ -23,8 +23,8 @@
             <td><?= $prod['description'] ?></td>
             <td><?= $prod['qty'] ?></td>
             <td>
-                <a href="./add-employee.php?employeeId=<?= $prod['id'] ?>" class="btn btn-warning">Alter</a>
-                <a href="./handelers/handelemployees.php?employeeIdDel=<?= $prod['id'] ?>" class="btn btn-danger">Delete</a>
+                <a href="<?php url('product/edit/'.$prod['id'].'') ?>" class="btn btn-warning">Edit</a>
+                <a href="<?php url('product/delete/'.$prod['id'].'') ?>" class="btn btn-danger">Delete</a>
             </td>
             </tr>
         <?php endforeach ?>
