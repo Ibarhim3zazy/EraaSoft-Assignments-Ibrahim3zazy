@@ -2,7 +2,7 @@
 
 class HomeController
 {
-    public function index2($id)
+    public function index()
     {
         // echo $id;
         $data['title'] = "Home Page"; 

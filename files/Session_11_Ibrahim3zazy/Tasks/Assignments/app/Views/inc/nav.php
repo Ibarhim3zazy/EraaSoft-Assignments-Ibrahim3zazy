@@ -7,13 +7,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+          <a class="nav-link active" aria-current="page" href="<?php url() ?>">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="add-product.php">Add Product</a>
+          <a class="nav-link" href="<?php url('product/add') ?>">Add Product</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php VIEWS.'product/index.php' ?>">Products</a>
+          <a class="nav-link" href="<?php url('product/index') ?>">Products</a>
         </li>
       </ul>
       <form class="d-flex" role="search">

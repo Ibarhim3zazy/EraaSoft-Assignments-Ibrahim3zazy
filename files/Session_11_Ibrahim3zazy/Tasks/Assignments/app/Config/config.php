@@ -1,5 +1,9 @@
 <?php
 
+// define site url
+
+define('BURL', 'http://mymvc.local/');
+
 // database configrution
 
 define('HOST', 'localhost');
