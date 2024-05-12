@@ -34,21 +34,14 @@ class ProductController
         }
     }
     // delete product
-    public function delete()
+    public function delete($productId)
     {
-        if (isset($_POST['productId'])) {
-            foreach ($_POST as $key => $value) $$key = $value;
-            $data = [
-                'name' => $name, 
-                'price' => $price, 
-                'description' => $description, 
-                'qty' => $qty
-            ];
+        if (isset($productId)) {
             $db = new product();
-            if ($db->deletetProduct($data)) {
-                view::load('product/delete', ['success' => 'Data Has Been Successfuly']);
+            if ($db->deleteProduct($productId)) {
+                view::load('product/delete', ['success' => 'Data Has Been Successfuly Deleted']);
             }else {
-                view::load('product/delete');
+                view::load('product/delete', ['success' => 'Faild to delete data']);
             }
             // echo "$name ___ $price ___ $description ___ $qty";
         }

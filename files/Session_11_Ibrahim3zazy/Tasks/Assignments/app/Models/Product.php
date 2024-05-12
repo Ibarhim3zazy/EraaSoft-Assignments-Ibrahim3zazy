@@ -20,6 +20,7 @@ class Product extends DB
     }
 
     public function deleteProduct($productId) {
-        return $this->conn->delete($this->table, $productId);
+        $db = $this->conn->where('id', $productId);
+        return $db->delete($this->table);
     }
 }
