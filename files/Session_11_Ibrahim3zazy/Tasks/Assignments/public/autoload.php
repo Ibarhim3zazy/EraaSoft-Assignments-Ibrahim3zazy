@@ -2,6 +2,7 @@
 define("DS",DIRECTORY_SEPARATOR);
 define("ROOT_PATH",dirname(__DIR__).DS);
 define("APP",ROOT_PATH.'APP'.DS);
+define("SEARCHES",ROOT_PATH.'Searches'.DS);
 define("CORE",APP.'Core'.DS);
 define("CONFIG",APP.'Config'.DS);
 define("CONTROLLERS",APP.'Controllers'.DS);
